@@ -1,4 +1,54 @@
-# Getting Started with Create React App
+# Welcome to theCrane APP!
+
+**theCrane** is a Data Visualization App that allows you to understand trends in the community, by visualising relationships between Posts, Users and Topics in different ways.
+
+This APP consumes directly from a GraphQL API (which we're not going to reference anywhere here in this project!).
+
+The URL from where this GraphQL API is hosted can be set by:
+- Go to `src/common/api`
+- Create a file called 'config.ts' (at the same level of `apollo-client.ts`)
+- Add the following:
+```javascript
+    const config = {
+        API_URL: '{GRAPHQL_API_URL}',
+    };
+
+    export default config;
+```
+
+This will be use to instanciate an ApolloClient.
+
+---
+
+## Current Structure
+
+At the moment, theCrane shows the following visualizations:
+
+- Number of posts for each month over the analyzed period
+- Number of posts by topic over the analyzed period
+- TOP-3 topics for each month over the analyzed period
+- TOP-3 topics for each user over the analyzed period
+
+
+## What has been used?
+
+theCrane App is using:
+
+- [VX](https://github.com/airbnb/visx) for creating the Visualizations 
+- [Apollo](https://www.apollographql.com/apollo-client) for GraphQL API communication
+- [MomentJS](https://momentjs.com) for Date manipulation
+- [TypeScript](https://www.typescriptlang.org)
+
+
+## Things to do in the future
+
+- Make app (and charts) responsive
+- Add more visualizations
+- Improving current visualizations components
+
+---
+
+## Regarding: Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
