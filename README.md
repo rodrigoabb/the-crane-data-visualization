@@ -45,6 +45,7 @@ theCrane App is using:
 - Make app (and charts) responsive
 - Add more visualizations
 - Improving current visualizations components
+- Make number of posts analyzed to be configurable
 
 ---
 
