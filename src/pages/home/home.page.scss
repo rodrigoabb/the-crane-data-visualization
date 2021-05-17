@@ -1,0 +1,40 @@
+.page-title {
+  
+}
+
+.page-subtitle {
+  padding: 20px 0;  
+}
+
+.detailed-text {
+  padding: 10px;
+  color: #686868;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.chart-container {
+}
+
+.chart {
+    padding: 20px 0;
+}
+
+.chart-title {
+  padding-left: 10px;
+  ::before {
+    padding-right: 5px;
+    content: "\27A4";
+  }
+}
+
+.legend-container {
+  padding-bottom: 20px;
+ 
+}
+.descripton {
+  padding: 10px 0 0 32px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1F1F1F;
+}
